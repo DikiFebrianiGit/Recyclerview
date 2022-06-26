@@ -9,16 +9,18 @@
     <ImageView
         android:id="@+id/image_pemain"
         android:layout_width="match_parent"
-        android:layout_height="382dp"
-        android:layout_gravity="center"
+        android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:src="@drawable/marcello" />
+        android:layout_gravity="center"
+        android:src="@drawable/benzema" />
     <TextView
+        android:id="@+id/textDataPribadi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
         android:drawablePadding="5dp"
+        android:padding="5dp"
         android:text="Data Pribadi"
         android:textAlignment="center"
         android:textSize="20sp"
@@ -28,6 +30,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="horizontal"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="5dp">
         <TextView
@@ -40,13 +43,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
-            android:text="Marcello :"
+            android:text="Benzema"
             />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="horizontal"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="5dp">
         <TextView
@@ -59,13 +63,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
-            android:text="Rio Zenero :"
+            android:text="Benzema"
             />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="horizontal"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="5dp">
         <TextView
@@ -78,7 +83,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
-            android:text="15 Februari 1985 :"
+            android:text="Benzema"
             />
     </LinearLayout>
 
@@ -97,26 +102,27 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
-            android:text="Pemain Belakang :"
+            android:text="Benzema"
             />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="horizontal"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="5dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tinggi :"
+            android:text="Benzema"
             />
         <TextView
             android:id="@+id/txtTinggi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
-            android:text="187 cm :"
+            android:text="Benzema"
             />
     </LinearLayout>
 

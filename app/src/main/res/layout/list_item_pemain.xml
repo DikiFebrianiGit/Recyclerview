@@ -18,5 +18,4 @@
         android:textSize="18sp"
         android:layout_marginLeft="30dp"
         />
-
 </LinearLayout>
